@@ -31,7 +31,7 @@ FLATPAGES_HTML_RENDERER = 'learnpython.utils:restructuredtext_filter'
 FLATPAGES_ROOT = rel('data')
 
 # Mail settings
-DEFAULT_MAIL_SENDER = 'Learn Python <we@learnpython.in.ua>'
+DEFAULT_MAIL_SENDER = 'Dive Into <help@diveinto.ru>'
 MAIL_FAIL_SILENTLY = False
 MAIL_SERVER = env('MAILGUN_SMTP_SERVER', 'localhost')
 MAIL_PORT = env('MAILGUN_SMTP_PORT', 25)

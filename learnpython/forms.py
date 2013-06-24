@@ -64,7 +64,7 @@ class BaseContactsForm(wtf.Form, object):
     name = wtf.TextField(_('Name'), validators=[Required()])
     email = wtf.TextField(_('Email'), validators=[Required(), Email()])
 
-    default_recipient = 'we@learnpython.in.ua'
+    default_recipient = 'help@diveinto.ru'
     template = None
     title = None
 

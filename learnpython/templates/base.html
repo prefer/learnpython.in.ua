@@ -8,17 +8,19 @@
   {% block extra_head %}{% endblock %}
 
   {% if not request.host.startswith("127.0.0.1") %}
-  <script type="text/javascript"><!--
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-5480567-4']);
-    _gaq.push(['_trackPageview']);
+    <script type="text/javascript">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  --></script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-41199587-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   {% endif %}
 </head>
 
@@ -40,13 +42,13 @@
       <div class="right-wrapper">
         <h3>{{ _("3 flows on 6 studies") }}</h3>
         <p>
-          <a class="twitter-icon" href="https://twitter.com/learnpythoninua">learnpythoninua</a></li>
+          <a class="twitter-icon" href="https://twitter.com/DiveIntoRu">learnpythoninua</a></li>
         </p>
       </div>
       <div class="clear">
-        <a class="github-ribbon" href="https://github.com/learnpython/learnpython.in.ua">
+        <!--a class="github-ribbon" href="https://github.com/learnpython/learnpython.in.ua">
           <img alt="{{ _("Fork us on GitHub") }}" src="{{ url_for("static", filename="img/github-ribbon.png") }}">
-        </a>
+        </a-->
       </div>
     </header>
 
