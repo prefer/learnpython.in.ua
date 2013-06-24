@@ -31,7 +31,7 @@ FLATPAGES_HTML_RENDERER = 'learnpython.utils:restructuredtext_filter'
 FLATPAGES_ROOT = rel('data')
 
 # Mail settings
-DEFAULT_MAIL_SENDER = 'Dive Into <help@diveinto.ru>'
+DEFAULT_MAIL_SENDER = 'Dive into IT <help@diveinto.ru>'
 MAIL_FAIL_SILENTLY = False
 MAIL_SERVER = env('MAILGUN_SMTP_SERVER', 'localhost')
 MAIL_PORT = env('MAILGUN_SMTP_PORT', 25)
@@ -43,7 +43,7 @@ SECRET_KEY = env('SECRET_KEY', 'Z\xc7G\xaf\x15$\xc1O\x8d\xb0Bks\x9b\n\x9a')
 
 # Project-related settings
 ALLOW_SUBSCRIBERS = bool(int(env('ALLOW_SUBSCRIBERS', 1)))
-MAIL_RECIPIENTS = env('MAIL_RECIPIENTS', 'we@learnpython.in.ua').split(',')
+MAIL_RECIPIENTS = env('MAIL_RECIPIENTS', 'help@diveinto.ru').split(',')
 
 
 # Import local settings if any

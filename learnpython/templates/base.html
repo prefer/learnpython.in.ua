@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ _("Learn Python in Kyiv, Ukraine") }}</title>
+  <title>{{ _("Dive into IT, Kazan, Russia") }}</title>
   <meta charset="utf-8">
 
   <link href="{{ url_for("static", filename="css/screen.css") }}" media="screen,projection,tv" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@
     <header>
       <div class="left-wrapper">
         <h1>
-          {% if not is_index %}<a href="{{ url_for("index") }}">{% endif %}{{ _("Learn Python in Kyiv, Ukraine") }}
+          {% if not is_index %}<a href="{{ url_for("index") }}">{% endif %}{{ _("Dive into IT, Kazan, Russia") }}
           {% if not is_index %}</a>{% endif %}
         </h1>
         <p>
@@ -40,9 +40,9 @@
         </p>
       </div>
       <div class="right-wrapper">
-        <h3>{{ _("3 flows on 6 studies") }}</h3>
+        <h3>{{ _("6 flows") }}</h3>
         <p>
-          <a class="twitter-icon" href="https://twitter.com/DiveIntoRu">learnpythoninua</a></li>
+          <a class="twitter-icon" href="https://twitter.com/_DiveIntoIT">Dive into IT</a></li>
         </p>
       </div>
       <div class="clear">
@@ -54,9 +54,13 @@
 
     <nav>
       <ul>
-        <li><a id="async-link-nav" href="{{ url_for("flows", _anchor="async") }}">{{ _("Async flow") }}</a></li>
-        <li><a id="web-link-nav" href="{{ url_for("flows", _anchor="web") }}">{{ _("Web flow") }}</a></li>
-        <li><a id="optimization-link-nav" href="{{ url_for("flows", _anchor="optimization") }}">{{ _("Optimization flow") }}</a></li>
+        <li><a id="web-python-link-nav" href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a></li>
+        <li><a id="advanced-python-link-nav" href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a></li>
+        <li><a id="web-csharp-link-nav" href="{{ url_for("flows", _anchor="web_scharp") }}">{{ _("Web C#") }}</a></li>
+        <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>
+        <li><a id="testing-link-nav" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a></li>
+        <li><a id="agile-link-nav" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a></li>
+
         <li><a class="{% if is_subscribe %}active {% endif %}subscribe" href="{{ url_for("subscribe") }}">{{ _("Subscribe") }} &rarr;</a></li>
       </ul>
     </nav>
@@ -67,11 +71,15 @@
 
     <footer>
       2012, 2013 &copy;
-      <a{% if is_index %} class="active"{% endif %} href="{{ url_for("index") }}">{{ _("Learn Python") }}</a><br>
+      <a{% if is_index %} class="active"{% endif %} href="{{ url_for("index") }}">{{ _("Dive into IT") }}</a><br>
 
-      <a id="async-link-footer" href="{{ url_for("flows", _anchor="async") }}">{{ _("Async flow") }}</a> &ndash;
-      <a id="web-link-footer" href="{{ url_for("flows", _anchor="web") }}">{{ _("Web flow") }}</a> &ndash;
-      <a id="optimization-link-footer" href="{{ url_for("flows", _anchor="optimization") }}">{{ _("Optimization flow") }}</a><br>
+      <a id="web-python-link-footer" href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a> &ndash;
+      <a id="advanced-python-link-footer" href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a> &ndash;
+      <a id="web-csharp-link-footer" href="{{ url_for("flows", _anchor="web_csharp") }}">{{ _("Web C#") }}</a><br>
+
+      <a id="js-link-footer" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a><br>
+      <a id="testing-link-footer" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a><br>
+      <a id="agile-link-footer-1" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a><br>
 
       <a{% if is_about %} class="active"{% endif %} href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
       <a{% if is_subscribe %} class="active"{% endif %} href="{{ url_for("subscribe") }}">{{ _("Subscribe") }}</a> &ndash;

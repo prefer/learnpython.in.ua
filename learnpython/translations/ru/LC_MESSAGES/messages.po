@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-04-23 16:21+0300\n"
+"POT-Creation-Date: 2013-06-24 17:41+0400\n"
 "PO-Revision-Date: 2012-10-23 10:59+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -50,15 +50,19 @@ msgstr "Обратная связь"
 msgid "Phone"
 msgstr "Телефон"
 
-#: learnpython/forms.py:130
+#: learnpython/forms.py:129
+msgid "Skype"
+msgstr ""
+
+#: learnpython/forms.py:131
 msgid "Flow"
 msgstr "Поток"
 
-#: learnpython/forms.py:132
+#: learnpython/forms.py:133
 msgid "Additional comments"
 msgstr "Дополнительные комментарии"
 
-#: learnpython/forms.py:135
+#: learnpython/forms.py:136
 msgid "Flow subscription"
 msgstr "Запись на поток"
 
@@ -81,62 +85,77 @@ msgstr ""
 "Пожалуйста, попробуйте еще раз позже!"
 
 #: learnpython/views.py:38
+#, fuzzy
 msgid ""
 "You successfully subscribed to Learn Python courses! We will send you all"
 " necessary information later!"
 msgstr ""
-"Вы успешно записались на курс Learn Python! После формирования групп мы "
+"Вы успешно записались на курс DiveInTo! После формирования групп мы "
 "отправим всю необходимую информацию о курсе на ваш электронный адрес!"
 
-#: learnpython/templates/base.html:4 learnpython/templates/base.html:31
-msgid "Learn Python in Kyiv, Ukraine"
-msgstr "Учим Python в Киеве"
+#: learnpython/templates/base.html:4 learnpython/templates/base.html:33
+msgid "Dive into IT, Kazan, Russia"
+msgstr "Погружение в IT"
 
-#: learnpython/templates/base.html:35 learnpython/templates/base.html:74
+#: learnpython/templates/base.html:37 learnpython/templates/base.html:84
 msgid "About us"
 msgstr "О нас"
 
-#: learnpython/templates/base.html:36 learnpython/templates/base.html:76
+#: learnpython/templates/base.html:38 learnpython/templates/base.html:86
 msgid "Flows archive"
 msgstr "Архив занятий"
 
-#: learnpython/templates/base.html:37 learnpython/templates/base.html:77
+#: learnpython/templates/base.html:39 learnpython/templates/base.html:87
 msgid "Contacts"
 msgstr "Контакты"
 
-#: learnpython/templates/base.html:41
-msgid "3 flows on 6 studies"
-msgstr "3 потока по 6 занятий"
+#: learnpython/templates/base.html:43
+msgid "6 flows"
+msgstr "6 потоков"
 
-#: learnpython/templates/base.html:48
+#: learnpython/templates/base.html:50
 msgid "Fork us on GitHub"
 msgstr "Форкайте нас на GitHub"
 
-#: learnpython/templates/base.html:55 learnpython/templates/base.html:70
-msgid "Async flow"
-msgstr "Async поток"
+#: learnpython/templates/base.html:57 learnpython/templates/base.html:76
+#, fuzzy
+msgid "Web Python"
+msgstr "Поток Web в Python"
 
-#: learnpython/templates/base.html:56 learnpython/templates/base.html:71
-msgid "Web flow"
-msgstr "Web поток"
+#: learnpython/templates/base.html:58 learnpython/templates/base.html:77
+msgid "Advanced Python"
+msgstr "Advanced Python"
 
-#: learnpython/templates/base.html:57 learnpython/templates/base.html:72
-msgid "Optimization flow"
-msgstr "Оптимизация"
+#: learnpython/templates/base.html:59 learnpython/templates/base.html:78
+msgid "Web C#"
+msgstr ""
 
-#: learnpython/templates/base.html:58 learnpython/templates/base.html:75
+#: learnpython/templates/base.html:60 learnpython/templates/base.html:80
+msgid "JavaScript"
+msgstr ""
+
+#: learnpython/templates/base.html:61 learnpython/templates/base.html:81
+msgid "Testing"
+msgstr ""
+
+#: learnpython/templates/base.html:62 learnpython/templates/base.html:82
+#, fuzzy
+msgid "Agile"
+msgstr "Email"
+
+#: learnpython/templates/base.html:64 learnpython/templates/base.html:85
 msgid "Subscribe"
 msgstr "Запись на курс"
 
-#: learnpython/templates/base.html:68
-msgid "Learn Python"
-msgstr "Learn Python"
+#: learnpython/templates/base.html:74
+msgid "Dive into IT"
+msgstr "Погружение в IT"
 
 #: learnpython/templates/contacts.html:9
 msgid "Cannot submit form! Please, fix errors below:"
 msgstr "Пожалуйста, исправьте указанные ошибки:"
 
-#: learnpython/templates/contacts.html:77
+#: learnpython/templates/contacts.html:85
 msgid "Submit"
 msgstr "Отправить"
 

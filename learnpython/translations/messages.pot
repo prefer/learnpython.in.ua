@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: learnpython VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-04-23 16:21+0300\n"
+"POT-Creation-Date: 2013-06-24 17:42+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,15 +50,19 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: learnpython/forms.py:130
+#: learnpython/forms.py:129
+msgid "Skype"
+msgstr ""
+
+#: learnpython/forms.py:131
 msgid "Flow"
 msgstr ""
 
-#: learnpython/forms.py:132
+#: learnpython/forms.py:133
 msgid "Additional comments"
 msgstr ""
 
-#: learnpython/forms.py:135
+#: learnpython/forms.py:136
 msgid "Flow subscription"
 msgstr ""
 
@@ -82,55 +86,67 @@ msgid ""
 " necessary information later!"
 msgstr ""
 
-#: learnpython/templates/base.html:4 learnpython/templates/base.html:31
-msgid "Learn Python in Kyiv, Ukraine"
+#: learnpython/templates/base.html:4 learnpython/templates/base.html:33
+msgid "Dive into IT, Kazan, Russia"
 msgstr ""
 
-#: learnpython/templates/base.html:35 learnpython/templates/base.html:74
+#: learnpython/templates/base.html:37 learnpython/templates/base.html:84
 msgid "About us"
 msgstr ""
 
-#: learnpython/templates/base.html:36 learnpython/templates/base.html:76
+#: learnpython/templates/base.html:38 learnpython/templates/base.html:86
 msgid "Flows archive"
 msgstr ""
 
-#: learnpython/templates/base.html:37 learnpython/templates/base.html:77
+#: learnpython/templates/base.html:39 learnpython/templates/base.html:87
 msgid "Contacts"
 msgstr ""
 
-#: learnpython/templates/base.html:41
-msgid "3 flows on 6 studies"
+#: learnpython/templates/base.html:43
+msgid "6 flows"
 msgstr ""
 
-#: learnpython/templates/base.html:48
+#: learnpython/templates/base.html:50
 msgid "Fork us on GitHub"
 msgstr ""
 
-#: learnpython/templates/base.html:55 learnpython/templates/base.html:70
-msgid "Async flow"
+#: learnpython/templates/base.html:57 learnpython/templates/base.html:76
+msgid "Web Python"
 msgstr ""
 
-#: learnpython/templates/base.html:56 learnpython/templates/base.html:71
-msgid "Web flow"
+#: learnpython/templates/base.html:58 learnpython/templates/base.html:77
+msgid "Advanced Python"
 msgstr ""
 
-#: learnpython/templates/base.html:57 learnpython/templates/base.html:72
-msgid "Optimization flow"
+#: learnpython/templates/base.html:59 learnpython/templates/base.html:78
+msgid "Web C#"
 msgstr ""
 
-#: learnpython/templates/base.html:58 learnpython/templates/base.html:75
+#: learnpython/templates/base.html:60 learnpython/templates/base.html:80
+msgid "JavaScript"
+msgstr ""
+
+#: learnpython/templates/base.html:61 learnpython/templates/base.html:81
+msgid "Testing"
+msgstr ""
+
+#: learnpython/templates/base.html:62 learnpython/templates/base.html:82
+msgid "Agile"
+msgstr ""
+
+#: learnpython/templates/base.html:64 learnpython/templates/base.html:85
 msgid "Subscribe"
 msgstr ""
 
-#: learnpython/templates/base.html:68
-msgid "Learn Python"
+#: learnpython/templates/base.html:74
+msgid "Dive into IT"
 msgstr ""
 
 #: learnpython/templates/contacts.html:9
 msgid "Cannot submit form! Please, fix errors below:"
 msgstr ""
 
-#: learnpython/templates/contacts.html:77
+#: learnpython/templates/contacts.html:85
 msgid "Submit"
 msgstr ""
 

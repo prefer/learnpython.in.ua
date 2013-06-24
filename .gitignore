@@ -1,11 +1,13 @@
 *.pyc
 *.pyo
 
+
 build/
 dist/
 env/
 ve/
 venv/
+.idea/
 
 .coverage
 
