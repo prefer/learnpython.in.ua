@@ -35,7 +35,7 @@ def contacts(name=None):
         'subscribe': {
             'error': _('Cannot apply subscription due to mail server '
                        'problems. Please, try again later!'),
-            'success': _('You successfully subscribed to Learn Python '
+            'success': _('You successfully subscribed to Dive into IT '
                          'courses! We will send you all necessary information '
                          'later!')
         }
