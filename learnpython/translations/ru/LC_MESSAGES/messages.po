@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-06-24 17:41+0400\n"
+"POT-Creation-Date: 2013-06-24 17:42+0400\n"
 "PO-Revision-Date: 2012-10-23 10:59+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -87,10 +87,10 @@ msgstr ""
 #: learnpython/views.py:38
 #, fuzzy
 msgid ""
-"You successfully subscribed to Learn Python courses! We will send you all"
+"You successfully subscribed to Dive into IT courses! We will send you all"
 " necessary information later!"
 msgstr ""
-"Вы успешно записались на курс DiveInTo! После формирования групп мы "
+"Вы успешно записались на курс Dive into IT! После формирования групп мы "
 "отправим всю необходимую информацию о курсе на ваш электронный адрес!"
 
 #: learnpython/templates/base.html:4 learnpython/templates/base.html:33
@@ -120,7 +120,7 @@ msgstr "Форкайте нас на GitHub"
 #: learnpython/templates/base.html:57 learnpython/templates/base.html:76
 #, fuzzy
 msgid "Web Python"
-msgstr "Поток Web в Python"
+msgstr "Web в Python"
 
 #: learnpython/templates/base.html:58 learnpython/templates/base.html:77
 msgid "Advanced Python"

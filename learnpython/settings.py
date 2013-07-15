@@ -23,7 +23,7 @@ DEBUG = False
 
 # Babel settings
 BABEL_DEFAULT_LOCALE = 'ru'
-BABEL_DEFAULT_TIMEZONE = 'Europe/Kiev'
+BABEL_DEFAULT_TIMEZONE = 'Europe/Moscow'
 
 # FlatPages settings
 FLATPAGES_EXTENSION = '.yml'
@@ -33,17 +33,17 @@ FLATPAGES_ROOT = rel('data')
 # Mail settings
 DEFAULT_MAIL_SENDER = 'Dive into IT <help@diveinto.ru>'
 MAIL_FAIL_SILENTLY = False
-MAIL_SERVER = env('MAILGUN_SMTP_SERVER', 'localhost')
+MAIL_SERVER = env('MAILGUN_SMTP_SERVER', 'smtp.yandex.ru')
 MAIL_PORT = env('MAILGUN_SMTP_PORT', 25)
-MAIL_USERNAME = env('MAILGUN_SMTP_LOGIN', '')
-MAIL_PASSWORD = env('MAILGUN_SMTP_PASSWORD', '')
+MAIL_USERNAME = env('MAILGUN_SMTP_LOGIN', 'help@diveinto.ru')
+MAIL_PASSWORD = env('MAILGUN_SMTP_PASSWORD', 'rhfrjpz,hf')
 
 # WTForms settings
 SECRET_KEY = env('SECRET_KEY', 'Z\xc7G\xaf\x15$\xc1O\x8d\xb0Bks\x9b\n\x9a')
 
 # Project-related settings
 ALLOW_SUBSCRIBERS = bool(int(env('ALLOW_SUBSCRIBERS', 1)))
-MAIL_RECIPIENTS = env('MAIL_RECIPIENTS', 'help@diveinto.ru').split(',')
+MAIL_RECIPIENTS = env('MAIL_RECIPIENTS', 'telepenin.nikolay@gmail.com').split(',')
 
 
 # Import local settings if any

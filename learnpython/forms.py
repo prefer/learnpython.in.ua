@@ -93,8 +93,8 @@ class BaseContactsForm(wtf.Form, object):
         assert self.template, 'Please, supply "template" attribute first.'
 
         title = self.get_title()
-        message = Message(u'[Learn Python] {0}'.format(title),
-                          sender=(self.data['name'], self.data['email']),
+        message = Message(u'[Dive into IT] {0}'.format(title),
+                          sender=app.config.get('DEFAULT_MAIL_SENDER'),
                           recipients=self.recipients)
         message.body = render_template(self.template, **self.data)
 

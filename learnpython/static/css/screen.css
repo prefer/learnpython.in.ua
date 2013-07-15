@@ -33,7 +33,7 @@ a:hover {
 
 header {
     margin: 20px 0;
-    background-image: url("../img/logo.png");
+    background-image: url("../img/logo-without-text.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -88,7 +88,7 @@ nav {
     background-image: url("../img/pattern-small.png");
     font-size: 22px;
     font-weight: normal;
-    height: 160px;
+    height: 80px;
 }
 
 nav ul {
@@ -120,13 +120,11 @@ nav ul li a.active {
     text-decoration: underline;
 }
 
-nav ul li:first-child a {
-    margin-left: 20px;
+/*
+nav ul li:last-child {
+    padding-left: 240px;
 }
-
-nav ul li:last-child a {
-    margin-right: 20px;
-}
+*/
 
 nav a.subscribe {
     background-color: #424d5b;

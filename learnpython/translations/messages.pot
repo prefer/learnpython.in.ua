@@ -82,7 +82,7 @@ msgstr ""
 
 #: learnpython/views.py:38
 msgid ""
-"You successfully subscribed to Learn Python courses! We will send you all"
+"You successfully subscribed to Dive into IT courses! We will send you all"
 " necessary information later!"
 msgstr ""
 
