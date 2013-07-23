@@ -110,8 +110,8 @@ msgid "Contacts"
 msgstr "Контакты"
 
 #: learnpython/templates/base.html:43
-msgid "6 flows"
-msgstr "6 потоков"
+msgid "2 flows"
+msgstr "2 потока"
 
 #: learnpython/templates/base.html:50
 msgid "Fork us on GitHub"

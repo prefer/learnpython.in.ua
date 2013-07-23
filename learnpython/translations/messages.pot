@@ -103,7 +103,7 @@ msgid "Contacts"
 msgstr ""
 
 #: learnpython/templates/base.html:43
-msgid "6 flows"
+msgid "2 flows"
 msgstr ""
 
 #: learnpython/templates/base.html:50
