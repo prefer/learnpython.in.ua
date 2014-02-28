@@ -5,7 +5,6 @@ Flask-FlatPages==0.5
 Flask-LazyViews==0.4
 Flask-Mail==0.7.6
 Flask-Script==0.5.3
-Flask-Testing==0.4
 Flask-WTF==0.8.3
 WTForms==1.0.3
 WebOb==1.2.3
@@ -22,6 +21,5 @@ pyquery==1.2.4
 pylint==0.27.0
 selenium==2.32.0
 splinter==0.5.2
-twill==0.9
 unittest2==0.5.1
 windmill==1.6
