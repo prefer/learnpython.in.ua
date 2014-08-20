@@ -1,15 +1,15 @@
 # Translations template for learnpython.
-# Copyright (C) 2013 ORGANIZATION
+# Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the learnpython
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: learnpython VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-06-24 17:42+0400\n"
+"POT-Creation-Date: 2014-08-20 11:47+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,60 +86,64 @@ msgid ""
 " necessary information later!"
 msgstr ""
 
-#: learnpython/templates/base.html:4 learnpython/templates/base.html:33
+#: learnpython/templates/base.html:4 learnpython/templates/base.html:37
 msgid "Dive into IT, Kazan, Russia"
 msgstr ""
 
-#: learnpython/templates/base.html:37 learnpython/templates/base.html:84
+#: learnpython/templates/base.html:43 learnpython/templates/base.html:110
 msgid "About us"
 msgstr ""
 
-#: learnpython/templates/base.html:38 learnpython/templates/base.html:86
+#: learnpython/templates/base.html:45 learnpython/templates/base.html:114
 msgid "Flows archive"
 msgstr ""
 
-#: learnpython/templates/base.html:39 learnpython/templates/base.html:87
+#: learnpython/templates/base.html:47 learnpython/templates/base.html:116
 msgid "Contacts"
 msgstr ""
 
-#: learnpython/templates/base.html:43
+#: learnpython/templates/base.html:51
 msgid "2 flows"
 msgstr ""
 
-#: learnpython/templates/base.html:50
+#: learnpython/templates/base.html:60
 msgid "Fork us on GitHub"
 msgstr ""
 
-#: learnpython/templates/base.html:57 learnpython/templates/base.html:76
+#: learnpython/templates/base.html:68 learnpython/templates/base.html:94
 msgid "Web Python"
 msgstr ""
 
-#: learnpython/templates/base.html:58 learnpython/templates/base.html:77
+#: learnpython/templates/base.html:70 learnpython/templates/base.html:96
 msgid "Advanced Python"
 msgstr ""
 
-#: learnpython/templates/base.html:59 learnpython/templates/base.html:78
-msgid "Web C#"
+#: learnpython/templates/base.html:71 learnpython/templates/base.html:98
+msgid "Advanced C#"
 msgstr ""
 
-#: learnpython/templates/base.html:60 learnpython/templates/base.html:80
+#: learnpython/templates/base.html:73
 msgid "JavaScript"
 msgstr ""
 
-#: learnpython/templates/base.html:61 learnpython/templates/base.html:81
-msgid "Testing"
+#: learnpython/templates/base.html:74 learnpython/templates/base.html:102
+msgid "Web"
 msgstr ""
 
-#: learnpython/templates/base.html:62 learnpython/templates/base.html:82
+#: learnpython/templates/base.html:78
 msgid "Agile"
 msgstr ""
 
-#: learnpython/templates/base.html:64 learnpython/templates/base.html:85
+#: learnpython/templates/base.html:81 learnpython/templates/base.html:112
 msgid "Subscribe"
 msgstr ""
 
-#: learnpython/templates/base.html:74
+#: learnpython/templates/base.html:91
 msgid "Dive into IT"
+msgstr ""
+
+#: learnpython/templates/base.html:100
+msgid "Javascript"
 msgstr ""
 
 #: learnpython/templates/contacts.html:9

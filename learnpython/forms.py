@@ -125,8 +125,8 @@ class SubscribeForm(BaseContactsForm):
     """
     Subscribe form.
     """
-    phone = wtf.TextField(_('Phone'))
-    skype = wtf.TextField(_('Skype'))
+    phone = wtf.TextField(_('Phone'), validators=[Required()])
+    skype = wtf.TextField(_('Skype'), validators=[Required()])
     flow = wtf.SelectField(
         _('Flow'), choices=FLOW_CHOICES, validators=[Required()]
     )

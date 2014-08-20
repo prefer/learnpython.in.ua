@@ -77,6 +77,14 @@ header a.twitter-icon {
     padding-left: 20px;
 }
 
+header a.vkontakte-icon {
+    background-image: url("../img/vkontakte-icon.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+
 header a.github-ribbon {
     border: 0;
     position: absolute;
@@ -88,7 +96,7 @@ nav {
     background-image: url("../img/pattern-small.png");
     font-size: 22px;
     font-weight: normal;
-    height: 80px;
+    height: 160px;
 }
 
 nav ul {

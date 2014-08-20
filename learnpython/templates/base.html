@@ -1,94 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ _("Dive into IT, Kazan, Russia") }}</title>
-  <meta charset="utf-8">
+    <title>{{ _("Dive into IT, Kazan, Russia") }}</title>
+    <meta charset="utf-8">
 
-  <link href="{{ url_for("static", filename="css/screen.css") }}" media="screen,projection,tv" rel="stylesheet" type="text/css">
-  {% block extra_head %}{% endblock %}
+    <link href="{{ url_for("static", filename="css/screen.css") }}" media="screen,projection,tv" rel="stylesheet"
+          type="text/css">
+    {% block extra_head %}{% endblock %}
 
-  {% if not request.host.startswith("127.0.0.1") %}
-    <script type="text/javascript">
+    {% if not request.host.startswith("127.0.0.1") %}
+        <script type="text/javascript">
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-41199587-1']);
-      _gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-41199587-1']);
+            _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 
-    </script>
-  {% endif %}
+        </script>
+    {% endif %}
 </head>
 
 <body>
 
-  <div id="wrapper">
+<div id="wrapper">
     <header>
-      <div class="left-wrapper">
-        <h1>
-          {% if not is_index %}<a href="{{ url_for("index") }}">{% endif %}{{ _("Dive into IT, Kazan, Russia") }}
-          {% if not is_index %}</a>{% endif %}
-        </h1>
-        <p>
-          <a{% if is_about %} class="active"{% endif %} href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
-          <a{% if is_archive %} class="active"{% endif %} href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
-          <a{% if is_contacts %} class="active"{% endif %} href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
-        </p>
-      </div>
-      <div class="right-wrapper">
-        <h3>{{ _("2 flows") }}</h3>
-        <p>
-          <a class="twitter-icon" href="https://twitter.com/_DiveIntoIT">Dive into IT</a></li>
-        </p>
-      </div>
-      <div class="clear">
-        <!--a class="github-ribbon" href="https://github.com/learnpython/learnpython.in.ua">
+        <div class="left-wrapper">
+            <h1>
+                {% if not is_index %}<a href="{{ url_for("index") }}">{% endif %}{{ _("Dive into IT, Kazan, Russia") }}
+                {% if not is_index %}</a>{% endif %}
+            </h1>
+
+            <p>
+                <a{% if is_about %} class="active"{% endif %}
+                                    href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
+                <a{% if is_archive %} class="active"{% endif %}
+                                      href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
+                <a{% if is_contacts %} class="active"{% endif %}
+                                       href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
+            </p>
+        </div>
+        <div class="right-wrapper">
+            <h3>{{ _("2 flows") }}</h3>
+
+            <p>
+                <a class="twitter-icon" href="https://twitter.com/_DiveIntoIT"></a></li>
+                <a class="vkontakte-icon" href="https://vk.com/dive_into_it"></a></li>
+            </p>
+        </div>
+        <div class="clear">
+            <!--a class="github-ribbon" href="https://github.com/learnpython/learnpython.in.ua">
           <img alt="{{ _("Fork us on GitHub") }}" src="{{ url_for("static", filename="img/github-ribbon.png") }}">
         </a-->
-      </div>
+        </div>
     </header>
 
     <nav>
-      <ul>
-        <li><a id="web-python-link-nav" href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a></li>
-        <li><a id="advanced-python-link-nav" href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a></li>
-{#        <li><a id="web-csharp-link-nav" href="{{ url_for("flows", _anchor="web_csharp") }}">{{ _("Web C#") }}</a></li-->#}
-{#        <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>#}
-{#        <li><a id="testing-link-nav" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a></li>#}
-        <!--li><a id="agile-link-nav" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a></li-->
+        <ul>
+            <li><a id="web-python-link-nav"
+                   href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a></li>
+            <li><a id="advanced-python-link-nav"
+                   href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a></li>
+            <li><a id="c_sharp-link-nav" href="{{ url_for("flows", _anchor="c_sharp") }}">{{ _("Advanced C#") }}</a>
+            </li>
+            <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>
+            <li><a id="client-side-nav" href="{{ url_for("flows", _anchor="client_side") }}">{{ _("Web") }}</a>
+            </li>
+            {#            <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>#}
+            {#        <li><a id="testing-link-nav" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a></li>#}
+            <!--li><a id="agile-link-nav" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a></li-->
 
-        <li><a class="{% if is_subscribe %}active {% endif %}subscribe" href="{{ url_for("subscribe") }}">{{ _("Subscribe") }} &rarr;</a></li>
-      </ul>
+            <li><a class="{% if is_subscribe %}active {% endif %}subscribe"
+                   href="{{ url_for("subscribe") }}">{{ _("Subscribe") }} &rarr;</a></li>
+        </ul>
     </nav>
 
     <article>
-      {% block content %}{% endblock %}
+        {% block content %}{% endblock %}
     </article>
 
     <footer>
-      2012, 2013 &copy;
-      <a{% if is_index %} class="active"{% endif %} href="{{ url_for("index") }}">{{ _("Dive into IT") }}</a><br>
+        2012, 2013 &copy;
+        <a{% if is_index %} class="active"{% endif %} href="{{ url_for("index") }}">{{ _("Dive into IT") }}</a><br>
 
-      <a id="web-python-link-footer" href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a> &ndash;
-      <a id="advanced-python-link-footer" href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a> &ndash;
-{#      <a id="web-csharp-link-footer" href="{{ url_for("flows", _anchor="web_csharp") }}">{{ _("Web C#") }}</a><br-->#}
+        <a id="web-python-link-footer"
+           href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a> &ndash;
+        <a id="advanced-python-link-footer"
+           href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a> &ndash;
+        <a id="c-sharp-link-footer"
+           href="{{ url_for("flows", _anchor="c_sharp") }}">{{ _("Advanced C#") }}</a> &ndash;
+        <a id="js-link-footer"
+           href="{{ url_for("flows", _anchor="js") }}">{{ _("Javascript") }}</a> &ndash;
+        <a id="client-side-link-footer"
+           href="{{ url_for("flows", _anchor="client_side") }}">{{ _("Web") }}</a> &ndash;
+        {#      <a id="web-csharp-link-footer" href="{{ url_for("flows", _anchor="web_csharp") }}">{{ _("Web C#") }}</a><br-->#}
 
-{#      <a id="js-link-footer" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a><br>#}
-{#      <a id="testing-link-footer" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a><br>#}
-{#      <!--a id="agile-link-footer-1" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a><br-->#}
+        {#      <a id="js-link-footer" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a><br>#}
+        {#      <a id="testing-link-footer" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a><br>#}
+        {#      <!--a id="agile-link-footer-1" href="{{ url_for("flows", _anchor="agile") }}">{{ _("Agile") }}</a><br-->#}
 
-      <a{% if is_about %} class="active"{% endif %} href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
-      <a{% if is_subscribe %} class="active"{% endif %} href="{{ url_for("subscribe") }}">{{ _("Subscribe") }}</a> &ndash;
-      <a{% if is_archive %} class="active"{% endif %} href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
-      <a{% if is_contacts %} class="active"{% endif %} href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
+        <a{% if is_about %} class="active"{% endif %}
+                            href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
+        <a{% if is_subscribe %} class="active"{% endif %}
+                                href="{{ url_for("subscribe") }}">{{ _("Subscribe") }}</a> &ndash;
+        <a{% if is_archive %} class="active"{% endif %}
+                              href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
+        <a{% if is_contacts %} class="active"{% endif %}
+                               href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
     </footer>
-  </div>
+</div>
 
-  {% block extra_body %}{% endblock %}
+{% block extra_body %}{% endblock %}
 
 </body>
 

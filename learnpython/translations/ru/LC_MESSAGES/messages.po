@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-06-24 17:42+0400\n"
+"POT-Creation-Date: 2014-08-20 11:47+0400\n"
 "PO-Revision-Date: 2012-10-23 10:59+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -93,63 +93,69 @@ msgstr ""
 "Вы успешно записались на курс Dive into IT! После формирования групп мы "
 "отправим всю необходимую информацию о курсе на ваш электронный адрес!"
 
-#: learnpython/templates/base.html:4 learnpython/templates/base.html:33
+#: learnpython/templates/base.html:4 learnpython/templates/base.html:37
 msgid "Dive into IT, Kazan, Russia"
 msgstr "Погружение в IT"
 
-#: learnpython/templates/base.html:37 learnpython/templates/base.html:84
+#: learnpython/templates/base.html:43 learnpython/templates/base.html:110
 msgid "About us"
 msgstr "О нас"
 
-#: learnpython/templates/base.html:38 learnpython/templates/base.html:86
+#: learnpython/templates/base.html:45 learnpython/templates/base.html:114
 msgid "Flows archive"
 msgstr "Архив занятий"
 
-#: learnpython/templates/base.html:39 learnpython/templates/base.html:87
+#: learnpython/templates/base.html:47 learnpython/templates/base.html:116
 msgid "Contacts"
 msgstr "Контакты"
 
-#: learnpython/templates/base.html:43
+#: learnpython/templates/base.html:51
+#, fuzzy
 msgid "2 flows"
-msgstr "2 потока"
+msgstr "5 потоков"
 
-#: learnpython/templates/base.html:50
+#: learnpython/templates/base.html:60
 msgid "Fork us on GitHub"
 msgstr "Форкайте нас на GitHub"
 
-#: learnpython/templates/base.html:57 learnpython/templates/base.html:76
+#: learnpython/templates/base.html:68 learnpython/templates/base.html:94
 #, fuzzy
 msgid "Web Python"
 msgstr "Web в Python"
 
-#: learnpython/templates/base.html:58 learnpython/templates/base.html:77
+#: learnpython/templates/base.html:70 learnpython/templates/base.html:96
 msgid "Advanced Python"
 msgstr "Advanced Python"
 
-#: learnpython/templates/base.html:59 learnpython/templates/base.html:78
-msgid "Web C#"
-msgstr ""
+#: learnpython/templates/base.html:71 learnpython/templates/base.html:98
+#, fuzzy
+msgid "Advanced C#"
+msgstr "Advanced C#"
 
-#: learnpython/templates/base.html:60 learnpython/templates/base.html:80
+#: learnpython/templates/base.html:73
 msgid "JavaScript"
+msgstr "Advanded JavaScript"
+
+#: learnpython/templates/base.html:74 learnpython/templates/base.html:102
+msgid "Web"
 msgstr ""
 
-#: learnpython/templates/base.html:61 learnpython/templates/base.html:81
-msgid "Testing"
-msgstr ""
-
-#: learnpython/templates/base.html:62 learnpython/templates/base.html:82
+#: learnpython/templates/base.html:78
 #, fuzzy
 msgid "Agile"
 msgstr "Email"
 
-#: learnpython/templates/base.html:64 learnpython/templates/base.html:85
+#: learnpython/templates/base.html:81 learnpython/templates/base.html:112
 msgid "Subscribe"
 msgstr "Запись на курс"
 
-#: learnpython/templates/base.html:74
+#: learnpython/templates/base.html:91
 msgid "Dive into IT"
 msgstr "Погружение в IT"
+
+#: learnpython/templates/base.html:100
+msgid "Javascript"
+msgstr ""
 
 #: learnpython/templates/contacts.html:9
 msgid "Cannot submit form! Please, fix errors below:"

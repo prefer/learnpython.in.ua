@@ -13,7 +13,7 @@ ifneq ($(VENV),)
 	PYLINT = pylint
 	PYTHON = python
 else
-	BABEL = $(ENV)/bin/pybabel
+	BABEL = pybabel
 	NOSETESTS = $(ENV)/bin/nosetests
 	PEP8 = $(ENV)/bin/pep8
 	PIP = $(ENV)/bin/pip
@@ -66,7 +66,7 @@ manage:
 
 messages:
 	[ ! -d $(TRANSLATIONS_DIR) ] && mkdir $(TRANSLATIONS_DIR) || :
-	$(ENV)/bin/pybabel extract -F babel.cfg -k lazy_gettext -o $(TRANSLATIONS_DIR)/messages.pot --project=$(PROJECT) .
+	pybabel extract -F babel.cfg -k lazy_gettext -o $(TRANSLATIONS_DIR)/messages.pot --project=$(PROJECT) .
 	[ ! -d $(TRANSLATIONS_DIR)/ru ] && \
 	$(BABEL) init -i $(TRANSLATIONS_DIR)/messages.pot -d $(TRANSLATIONS_DIR) -l ru || \
 	$(BABEL) update -i $(TRANSLATIONS_DIR)/messages.pot -d $(TRANSLATIONS_DIR) -l ru
