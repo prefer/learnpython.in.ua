@@ -41,8 +41,8 @@
             <p>
                 <a{% if is_about %} class="active"{% endif %}
                                     href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
-                <a{% if is_archive %} class="active"{% endif %}
-                                      href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
+                <a{% if is_corporate %} class="active"{% endif %}
+                                      href="{{ url_for("page", name="corporate") }}">{{ _("Corporate") }}</a> &ndash;
                 <a{% if is_contacts %} class="active"{% endif %}
                                        href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
             </p>
@@ -64,14 +64,14 @@
 
     <nav>
         <ul>
-            <li><a id="web-python-link-nav"
+            <li><a id="web_python-link-nav"
                    href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a></li>
-            <li><a id="advanced-python-link-nav"
+            <li><a id="advanced_python-link-nav"
                    href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a></li>
             <li><a id="c_sharp-link-nav" href="{{ url_for("flows", _anchor="c_sharp") }}">{{ _("Advanced C#") }}</a>
             </li>
             <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>
-            <li><a id="client-side-nav" href="{{ url_for("flows", _anchor="client_side") }}">{{ _("Web") }}</a>
+            <li><a id="client_side-nav" href="{{ url_for("flows", _anchor="client_side") }}">{{ _("Web") }}</a>
             </li>
             {#            <li><a id="js-link-nav" href="{{ url_for("flows", _anchor="js") }}">{{ _("JavaScript") }}</a></li>#}
             {#        <li><a id="testing-link-nav" href="{{ url_for("flows", _anchor="testing") }}">{{ _("Testing") }}</a></li>#}
@@ -87,18 +87,18 @@
     </article>
 
     <footer>
-        2012, 2013 &copy;
+        2012, 2013, 2014 &copy;
         <a{% if is_index %} class="active"{% endif %} href="{{ url_for("index") }}">{{ _("Dive into IT") }}</a><br>
 
-        <a id="web-python-link-footer"
+        <a id="web_python-link-footer"
            href="{{ url_for("flows", _anchor="web_python") }}">{{ _("Web Python") }}</a> &ndash;
-        <a id="advanced-python-link-footer"
+        <a id="advanced_python-link-footer"
            href="{{ url_for("flows", _anchor="advanced_python") }}">{{ _("Advanced Python") }}</a> &ndash;
-        <a id="c-sharp-link-footer"
+        <a id="c_sharp-link-footer"
            href="{{ url_for("flows", _anchor="c_sharp") }}">{{ _("Advanced C#") }}</a> &ndash;
         <a id="js-link-footer"
            href="{{ url_for("flows", _anchor="js") }}">{{ _("Javascript") }}</a> &ndash;
-        <a id="client-side-link-footer"
+        <a id="client_side-link-footer"
            href="{{ url_for("flows", _anchor="client_side") }}">{{ _("Web") }}</a> &ndash;
         {#      <a id="web-csharp-link-footer" href="{{ url_for("flows", _anchor="web_csharp") }}">{{ _("Web C#") }}</a><br-->#}
 
@@ -110,8 +110,8 @@
                             href="{{ url_for("page", name="about") }}">{{ _("About us") }}</a> &ndash;
         <a{% if is_subscribe %} class="active"{% endif %}
                                 href="{{ url_for("subscribe") }}">{{ _("Subscribe") }}</a> &ndash;
-        <a{% if is_archive %} class="active"{% endif %}
-                              href="{{ url_for("page", name="archive") }}">{{ _("Flows archive") }}</a> &ndash;
+        <a{% if is_corporate %} class="active"{% endif %}
+                              href="{{ url_for("page", name="corporate") }}">{{ _("Corporate") }}</a> &ndash;
         <a{% if is_contacts %} class="active"{% endif %}
                                href="{{ url_for("page", name="contacts") }}">{{ _("Contacts") }}</a>
     </footer>

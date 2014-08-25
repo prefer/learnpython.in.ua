@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-08-20 11:47+0400\n"
+"POT-Creation-Date: 2014-08-25 15:08+0400\n"
 "PO-Revision-Date: 2012-10-23 10:59+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -102,8 +102,9 @@ msgid "About us"
 msgstr "О нас"
 
 #: learnpython/templates/base.html:45 learnpython/templates/base.html:114
-msgid "Flows archive"
-msgstr "Архив занятий"
+#, fuzzy
+msgid "Corporate"
+msgstr "Корпоративные услуги"
 
 #: learnpython/templates/base.html:47 learnpython/templates/base.html:116
 msgid "Contacts"
@@ -161,7 +162,7 @@ msgstr ""
 msgid "Cannot submit form! Please, fix errors below:"
 msgstr "Пожалуйста, исправьте указанные ошибки:"
 
-#: learnpython/templates/contacts.html:85
+#: learnpython/templates/contacts.html:93
 msgid "Submit"
 msgstr "Отправить"
 
@@ -185,4 +186,7 @@ msgstr "Вы будете перенаправлены на следующую �
 #: learnpython/templates/status.html:11
 msgid "Click here, if you don't wanna wait"
 msgstr "Нажмите здесь, если вы не хотите ждать"
+
+#~ msgid "Flows archive"
+#~ msgstr "Архив занятий"
 

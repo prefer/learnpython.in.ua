@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: learnpython VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-08-20 11:47+0400\n"
+"POT-Creation-Date: 2014-08-25 15:08+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,7 @@ msgid "About us"
 msgstr ""
 
 #: learnpython/templates/base.html:45 learnpython/templates/base.html:114
-msgid "Flows archive"
+msgid "Corporate"
 msgstr ""
 
 #: learnpython/templates/base.html:47 learnpython/templates/base.html:116
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Cannot submit form! Please, fix errors below:"
 msgstr ""
 
-#: learnpython/templates/contacts.html:85
+#: learnpython/templates/contacts.html:93
 msgid "Submit"
 msgstr ""
 
