@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-08-25 15:08+0400\n"
+"POT-Creation-Date: 2014-08-25 15:20+0400\n"
 "PO-Revision-Date: 2012-10-23 10:59+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -135,7 +135,7 @@ msgstr "Advanced C#"
 
 #: learnpython/templates/base.html:73
 msgid "JavaScript"
-msgstr "Advanded JavaScript"
+msgstr "Advanced JavaScript"
 
 #: learnpython/templates/base.html:74 learnpython/templates/base.html:102
 msgid "Web"
@@ -186,7 +186,4 @@ msgstr "Вы будете перенаправлены на следующую �
 #: learnpython/templates/status.html:11
 msgid "Click here, if you don't wanna wait"
 msgstr "Нажмите здесь, если вы не хотите ждать"
-
-#~ msgid "Flows archive"
-#~ msgstr "Архив занятий"
 
