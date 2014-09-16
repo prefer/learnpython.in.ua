@@ -34,9 +34,11 @@ FLATPAGES_ROOT = rel('data')
 DEFAULT_MAIL_SENDER = 'Dive into IT <help@diveinto.ru>'
 MAIL_FAIL_SILENTLY = False
 MAIL_SERVER = env('MAILGUN_SMTP_SERVER', 'smtp.yandex.ru')
-MAIL_PORT = env('MAILGUN_SMTP_PORT', 25)
+MAIL_USE_SSL = True
+MAIL_USE_TLS = False
+MAIL_PORT = env('MAILGUN_SMTP_PORT', 465)
 MAIL_USERNAME = env('MAILGUN_SMTP_LOGIN', 'help@diveinto.ru')
-MAIL_PASSWORD = env('MAILGUN_SMTP_PASSWORD', 'rhfrjpz,hf')
+MAIL_PASSWORD = env('MAILGUN_SMTP_PASSWORD', '')
 
 # WTForms settings
 SECRET_KEY = env('SECRET_KEY', 'Z\xc7G\xaf\x15$\xc1O\x8d\xb0Bks\x9b\n\x9a')
