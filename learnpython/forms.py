@@ -30,9 +30,13 @@ from learnpython.app import app, mail, pages
 __all__ = ('ContactsForm', 'SubscribeForm')
 
 
+def open(page):
+    return page.meta.get('open') != 0
+
+
 FLOW_CHOICES = \
     map(lambda page: (page.path.replace('flows/', ''), page['title']),
-        sorted(filter(lambda page: page.path.startswith('flows/'), pages),
+        sorted(filter(lambda page: page.path.startswith('flows/') and open(page), pages),
                key=operator.itemgetter('order')))
 
 
@@ -40,6 +44,7 @@ class Email(wtf.Email, object):
     """
     Localize message for email validator.
     """
+
     def __init__(self, message=None):
         message = message or _('Invalid email address.')
         super(Email, self).__init__(message)
@@ -49,6 +54,7 @@ class Required(wtf.Required, object):
     """
     Localize message for required validator.
     """
+
     def __init__(self, message=None):
         message = message or _('This field is required.')
         super(Required, self).__init__(message)
